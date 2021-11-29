@@ -36,39 +36,39 @@
 23. [snort](https://www.snort.org/) - 是一套開放原始碼的網路入侵預防軟體與網路入侵檢測軟體。Snort使用了以偵測簽章與通訊協定的偵測方法。
 
 ### 網路封包偵測與分析工具 
-21. [Wireshark](https://www.wireshark.org/) - 免費開源的網路封包分析軟體，是廣泛使用的圖形化、跨平台網路協議分析工具。
-21. [tcpdump/libpcap](http://www.tcpdump.org/) - 是 Unix/Linux 平臺下的網路封包捕獲函式庫。為底層網路監測提供了一個可移植的框架。
-21. [Netzob](https://github.com/netzob/netzob) - 可用於對通訊協議進行逆向工程、建模和模糊測試。
-21.[sniffglue](https://github.com/kpcyrd/sniffglue) - 使用Rust開發的網路嗅探工具(sniff)，該工具使用了執行緒池來利用所有的CPU核心並對多個網路資料包同時進行解析處理。
-21.tcpdump](https://www.tcpdump.org/manpages/tcpdump.1.html) - 是一個執行在命令行下的封包剖析器。它允許使用者攔截和顯示傳送或收到過網路連接到該電腦的TCP/IP和其他封包。
-[Hping](http://www.hping.org/) - 是由Salvatore Sanfilippo創建的TCP / IP協議的開源封包生成器和分析器。它是用於防火牆和網絡的安全審核和測試的常用工具之一，現已整合在nmap中。
-[Scapy](https://scapy.net/) - 是一種用於計算機網絡的數據包處理工具，由Philippe Biondi用Python編寫。它可以偽造或解碼數據包，通過網絡發送它們，捕獲它們，並匹配請求和響應。
-[Aircrack-ng](http://www.aircrack-ng.org/) - 是一個與802.11標準的無線網路分析有關的安全軟體，主要功能有：網路偵測，封包嗅探，WEP和WPA/WPA2-PSK破解。
-[Kismet](https://kismetwireless.net/) - 無線網路檢測器、Sniffer和 IDS 。
-[Ettercap](http://www.ettercap-project.org) - 免費的開源網絡安全工具，用於對LAN進行中間人攻擊。可用於計算機網絡協議分析和安全審核。可在各種類Unix操作系統（包括Linux，Mac OS等）以及Windows上運行。
+24. [Wireshark](https://www.wireshark.org/) - 免費開源的網路封包分析軟體，是廣泛使用的圖形化、跨平台網路協議分析工具。
+25. [tcpdump/libpcap](http://www.tcpdump.org/) - 是 Unix/Linux 平臺下的網路封包捕獲函式庫。為底層網路監測提供了一個可移植的框架。
+26. [Netzob](https://github.com/netzob/netzob) - 可用於對通訊協議進行逆向工程、建模和模糊測試。
+27. [sniffglue](https://github.com/kpcyrd/sniffglue) - 使用Rust開發的網路嗅探工具(sniff)，該工具使用了執行緒池來利用所有的CPU核心並對多個網路資料包同時進行解析處理。
+28. [tcpdump](https://www.tcpdump.org/manpages/tcpdump.1.html) - 是一個執行在命令行下的封包剖析器。它允許使用者攔截和顯示傳送或收到過網路連接到該電腦的TCP/IP和其他封包。
+29. [Hping](http://www.hping.org/) - 是由Salvatore Sanfilippo創建的TCP / IP協議的開源封包生成器和分析器。它是用於防火牆和網絡的安全審核和測試的常用工具之一，現已整合在nmap中。
+30. [Scapy](https://scapy.net/) - 是一種用於計算機網絡的數據包處理工具，由Philippe Biondi用Python編寫。它可以偽造或解碼數據包，通過網絡發送它們，捕獲它們，並匹配請求和響應。
+31. [Aircrack-ng](http://www.aircrack-ng.org/) - 是一個與802.11標準的無線網路分析有關的安全軟體，主要功能有：網路偵測，封包嗅探，WEP和WPA/WPA2-PSK破解。
+32. [Kismet](https://kismetwireless.net/) - 無線網路檢測器、Sniffer和 IDS 。
+33. [Ettercap](http://www.ettercap-project.org) - 免費的開源網絡安全工具，用於對LAN進行中間人攻擊。可用於計算機網絡協議分析和安全審核。可在各種類Unix操作系統（包括Linux，Mac OS等）以及Windows上運行。
 
 ### 密碼測試與破解工具
-[John the Ripper](https://www.openwall.com/john/) - 是一個免費的密碼破解工具，可以自動檢測密碼的雜湊值類型並包括可自定義的破解程序。可針對各種加密的密碼格式運行。
-[thc hydra](https://github.com/vanhauser-thc/thc-hydra) - 是一個網路登錄破解程式，通過使用不同的方法來執行暴力攻擊，以猜測正確的用戶名和密碼組合。
-[Hashcat](http://hashcat.net/hashcat/) - 更快的hash破解程式。
-[Cowpatty](https://github.com/joswr1ght/cowpatty) - 針對 WPA-PSK 的暴力字典攻擊。
+34. [John the Ripper](https://www.openwall.com/john/) - 是一個免費的密碼破解工具，可以自動檢測密碼的雜湊值類型並包括可自定義的破解程序。可針對各種加密的密碼格式運行。
+35. [thc hydra](https://github.com/vanhauser-thc/thc-hydra) - 是一個網路登錄破解程式，通過使用不同的方法來執行暴力攻擊，以猜測正確的用戶名和密碼組合。
+36. [Hashcat](http://hashcat.net/hashcat/) - 更快的hash破解程式。
+37. [Cowpatty](https://github.com/joswr1ght/cowpatty) - 針對 WPA-PSK 的暴力字典攻擊。
 
 ### DDos工具
-[LOIC](https://github.com/NewEraCracker/LOIC/) - 是一個開源的網路壓力測試工具，可以通過使用單個用戶執行DOS攻擊小型伺服器。
-[JS LOIC](http://metacortexsecurity.com/tools/anon/LOIC/LOICv1.html) - 開源的網路壓力工具，為javaScript版本。
-[SlowLoris](https://github.com/gkbrk/slowloris) - 是一種拒絕服務攻擊工具，它允許一台機器以最小的帶寬關閉另一台機器的Web服務器，並且對無關的服務和端口產生副作用。
-[T50](https://gitlab.com/fredericopissarra/t50/) - 更快的網路壓力測試工具。
-[UFONet](https://github.com/epsylon/ufonet) - 濫用 OSI 第 7 層 HTTP 來創建/管理“殭屍”並使用不同的攻擊；GET/ POST、多線程、代理、源欺騙方法、緩存規避技術等。
-[Memcrashed](https://github.com/649/Memcrashed-DDoS-Exploit) - DDoS 攻擊工具，用於將偽造的 UDP 數據包發送到使用 Shodan API 獲得的易受攻擊的 Memcached 服務器。
+38. [LOIC](https://github.com/NewEraCracker/LOIC/) - 是一個開源的網路壓力測試工具，可以通過使用單個用戶執行DOS攻擊小型伺服器。
+39. [JS LOIC](http://metacortexsecurity.com/tools/anon/LOIC/LOICv1.html) - 開源的網路壓力工具，為javaScript版本。
+40. [SlowLoris](https://github.com/gkbrk/slowloris) - 是一種拒絕服務攻擊工具，它允許一台機器以最小的帶寬關閉另一台機器的Web服務器，並且對無關的服務和端口產生副作用。
+41. [T50](https://gitlab.com/fredericopissarra/t50/) - 更快的網路壓力測試工具。
+32. [UFONet](https://github.com/epsylon/ufonet) - 濫用 OSI 第 7 層 HTTP 來創建/管理“殭屍”並使用不同的攻擊；GET/ POST、多線程、代理、源欺騙方法、緩存規避技術等。
+43. [Memcrashed](https://github.com/649/Memcrashed-DDoS-Exploit) - DDoS 攻擊工具，用於將偽造的 UDP 數據包發送到使用 Shodan API 獲得的易受攻擊的 Memcached 服務器。
 
 
 ### CTF工具
-[ctf-tools](https://github.com/zardus/ctf-tools) - 安裝模組的集合，用於安裝各種安全研究工具，可輕鬆快速地部署到新的機器上。
-[Pwntools](https://github.com/Gallopsled/pwntools) - 是一個 CTF 框架和漏洞利用開發庫。它用 Python 編寫，專為快速原型設計和開發而設計，旨在使漏洞利用編寫盡可能簡單化。
-[RsaCtfTool](https://github.com/sourcekris/RsaCtfTool) - 解密使用弱 RSA 密鑰加密的數據，並使用各種自動攻擊從公鑰中恢復私鑰。
-[shellpop](https://github.com/0x00-0x00/shellpop) - 輕鬆生成複雜的反向或綁定 shell 的命令，以幫助在滲透測試期間節省時間。
+44. [ctf-tools](https://github.com/zardus/ctf-tools) - 安裝模組的集合，用於安裝各種安全研究工具，可輕鬆快速地部署到新的機器上。
+45. [Pwntools](https://github.com/Gallopsled/pwntools) - 是一個 CTF 框架和漏洞利用開發庫。它用 Python 編寫，專為快速原型設計和開發而設計，旨在使漏洞利用編寫盡可能簡單化。
+46. [RsaCtfTool](https://github.com/sourcekris/RsaCtfTool) - 解密使用弱 RSA 密鑰加密的數據，並使用各種自動攻擊從公鑰中恢復私鑰。
+47. [shellpop](https://github.com/0x00-0x00/shellpop) - 輕鬆生成複雜的反向或綁定 shell 的命令，以幫助在滲透測試期間節省時間。
 
 ### 逆向工程工具
-[Interactive Disassembler (IDA Pro)](https://www.hex-rays.com/products/ida/) - 適用於 Windows、GNU/Linux 或 macOS 的專有多處理器反編譯器和除錯器；還有一個免費版本，[IDA Free](https://www.hex-rays.com/products/ida/support/download_freeware.shtml)。
-[peda](https://github.com/longld/peda) - GDB 的 Python 漏洞利用開發工具。
-[pwndbg](https://github.com/pwndbg/pwndbg) - GDB 插件，可簡化 GDB 調試，重點關注軟件開發人員、黑客、逆向工程師和漏洞利用開發人員所需的功能。
+48. [Interactive Disassembler (IDA Pro)](https://www.hex-rays.com/products/ida/) - 適用於 Windows、GNU/Linux 或 macOS 的專有多處理器反編譯器和除錯器；還有一個免費版本，[IDA Free](https://www.hex-rays.com/products/ida/support/download_freeware.shtml)。
+49. [peda](https://github.com/longld/peda) - GDB 的 Python 漏洞利用開發工具。
+50. [pwndbg](https://github.com/pwndbg/pwndbg) - GDB 插件，可簡化 GDB 調試，重點關注軟件開發人員、黑客、逆向工程師和漏洞利用開發人員所需的功能。
