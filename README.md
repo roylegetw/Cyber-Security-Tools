@@ -57,7 +57,7 @@
 * [Hashcat](http://hashcat.net/hashcat/) - 更快的hash破解程式。
 * [Cowpatty](https://github.com/joswr1ght/cowpatty) - 針對 WPA-PSK 的暴力字典攻擊。
 
-### DDo工具
+### DDoS工具
 * [LOIC](https://github.com/NewEraCracker/LOIC/) - 是一個開源的網路壓力測試工具，可以通過使用單個用戶執行DOS攻擊小型伺服器。
 * [JS LOIC](http://metacortexsecurity.com/tools/anon/LOIC/LOICv1.html) - 開源的網路壓力工具，為javaScript版本。
 * [SlowLoris](https://github.com/gkbrk/slowloris) - 是一種拒絕服務攻擊工具，它允許一台機器以最小的帶寬關閉另一台機器的Web服務器，並且對無關的服務和端口產生副作用。
