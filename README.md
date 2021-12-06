@@ -2,6 +2,8 @@
 
 ### 資訊與網路安全工具
 
+***僅供學習參考***
+
 ***請勿用以下工具做出危害他人電腦之攻擊行為，並請麻煩在適當的環境中測試***
 
 ### 多編程框架
@@ -74,5 +76,3 @@
 * [Interactive Disassembler (IDA Pro)](https://www.hex-rays.com/products/ida/) - 適用於 Windows、GNU/Linux 或 macOS 的專有多處理器反編譯器和除錯器；還有一個免費版本，[IDA Free](https://www.hex-rays.com/products/ida/support/download_freeware.shtml)。
 * [peda](https://github.com/longld/peda) - GDB 的 Python 漏洞利用開發工具。
 * [pwndbg](https://github.com/pwndbg/pwndbg) - GDB 插件，可簡化 GDB 調試，重點關注軟體開發人員、黑客、逆向工程師和漏洞利用開發人員所需的功能。
-
-***僅供學習參考***
